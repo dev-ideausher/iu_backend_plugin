@@ -1,5 +1,5 @@
-name: mainiu
+name: main
 description: Create themes.
-to: lib
+to: utils
 args:
   - name
