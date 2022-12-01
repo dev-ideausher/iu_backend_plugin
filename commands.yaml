@@ -1,8 +1,4 @@
 commands:
-  auth: "flutter pub add firebase_auth && pub add flutter_facebook_auth && pub add google_sign_in && pub add sign_in_with_apple && pub add twitter_login ** iu authiu"
-  build: "flutter pub run build_runner build"
-  buildx: "flutter pub run build_runner build --delete-conflicting-outputs"
-  push: "git push origin master"
-  velo: "flutter pub add get && pub add get_storage && pub add dio && pub add google_fonts && pub add flutter_svg && pub add encrypt && pub add tuple && pub add crypto ** iu servicesiu && dioiu && mainiu"
-  watch: "flutter pub run build_runner watch"
-  refresh: "fast plugin remove --name iu && plugin add git https://github.com/dev-ideausher/iu_plugin.git"
+  refresh: "fast plugin remove --name iu && plugin add git https://github.com/dev-ideausher/iu_backend_plugin.git"
+  starter: "git init && git remote add origin git clone https://github.com/dev-ideausher/nodejs-starter.git && git pull origin master"
+
