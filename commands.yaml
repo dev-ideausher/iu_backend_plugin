@@ -1,4 +1,3 @@
 commands:
   refresh: "fast plugin remove --name iu_backend && plugin add git https://github.com/dev-ideausher/iu_backend_plugin.git"
-  starter: "git init && git remote add origin git clone https://github.com/dev-ideausher/nodejs-starter.git && git pull origin main"
-
+  starter: "git init && remote add origin https://github.com/dev-ideausher/nodejs-starter.git && pull origin main"
