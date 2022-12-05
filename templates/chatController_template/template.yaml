@@ -1,0 +1,5 @@
+name: chat-controller
+description: Create themes.
+to: controllers
+args:
+  - name
