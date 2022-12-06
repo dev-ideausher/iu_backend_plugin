@@ -1,0 +1,5 @@
+name: file-upload
+description: Create themes.
+to: src
+args:
+  - name

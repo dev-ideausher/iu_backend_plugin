@@ -1,0 +1,5 @@
+name: wallet-model
+description: Create themes.
+to: models
+args:
+  - name

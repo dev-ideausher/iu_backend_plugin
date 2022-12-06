@@ -1,44 +1,71 @@
 # IU Plugin
 
-Assuming you have done all the steps mentioned [here](https://github.com/dev-ideausher/iu.cli-master#readme), this is the plugin which we will use to generate the code template.
+First install the fast cli tool:
+
+```bash
+dart pub global activate -sgit https://github.com/dev-ideausher/iu.cli-master.git
+```
+
+Then you need to setup the envionment variables:
+
+ - for macOS
+    ```bash
+   export PATH="$PATH:/Users/"yourpcname"/.pub-cache/bin"
+    ```
+ - for linux
+    ```bash
+   export PATH="export PATH="$PATH":"$HOME/.pub-cache/bin"
+    ```
 
 ## Installation
 
-installing the plugin rightaway :
+installing the plugin right away :
 
-```
+``` bash
 fast plugin add git https://github.com/dev-ideausher/iu_backend_plugin.git
 ```
 
 After that, you need to set the Environmental path variable:
 
-- for MacOS 
+- for macOS 
 
-```
-export PATH="$PATH:/Users/"yourpcname"/.fastcli/bin"
+    ``` bash
+    export PATH="$PATH:/Users/"yourpcname"/.fastcli/bin"
+    ```
+
+- for linux
+
+    ``` bash
+    export PATH="export PATH="$PATH":"$HOME/.fastcli/bin"
+    ```
+
+To start a project, you need to run the following command:
+
+``` bash
+iu_backend run starter
 ```
 
-To setup services, dio, etc. and dependencies required with them, run :
+To set up firebase auth functions, run :
 
-```
-iu run velo
-```
-
-To setup firebase auth functions, run :
-
-```
+``` bash
 iu run auth
+```
+
+To refresh the plugin, run :
+
+``` bash
+iu_backend run refresh
 ```
 
 To remove the plugin :
 
-```
-fast plugin remove --name iu
+``` bash
+fast plugin remove --name iu_backend
 ```
 
 To list the plugins installed :
 
-```
+``` bash
 fast plugin list
 ```
 
@@ -51,4 +78,4 @@ fast plugin list
 <br>
 <br>
 <br>
-<sub><sub><sub>please dont ask me what is IU 🥹</sub></sub></sub>
+<sub><sub><sub>please don't ask me what is IU 🥹</sub></sub></sub>
