@@ -1,0 +1,5 @@
+name: couponAdminController
+description: Create themes.
+to: controllers/Admin
+args:
+  - name
