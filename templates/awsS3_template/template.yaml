@@ -1,5 +1,5 @@
-name: upload-controller
+name: aws
 description: Create themes.
-to: controllers
+to: utils
 args:
   - name
